@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpCICD", "src\CsharpCICD.csproj", "{ED74294C-54D3-486B-AA68-8D5A89B1AB49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpCICD.Test", "test\CsharpCICD.Test.csproj", "{AD471F20-24DA-4275-882C-19AAB8DB497E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{ED74294C-54D3-486B-AA68-8D5A89B1AB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED74294C-54D3-486B-AA68-8D5A89B1AB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED74294C-54D3-486B-AA68-8D5A89B1AB49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD471F20-24DA-4275-882C-19AAB8DB497E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD471F20-24DA-4275-882C-19AAB8DB497E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD471F20-24DA-4275-882C-19AAB8DB497E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD471F20-24DA-4275-882C-19AAB8DB497E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -4,14 +4,14 @@
     "C:\\Users\\Eric Lima\\Downloads\\4ºSemestre\\ghadockere\\test\\CsharpCICD.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eric Lima\\Downloads\\4ºSemestre\\ghadockere\\test\\CsharpCICD.Test.csproj": {
+    "C:\\Users\\Eric Lima\\Downloads\\4ºSemestre\\ghadockere\\src\\CsharpCICD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eric Lima\\Downloads\\4ºSemestre\\ghadockere\\test\\CsharpCICD.Test.csproj",
-        "projectName": "CsharpCICD.Test",
-        "projectPath": "C:\\Users\\Eric Lima\\Downloads\\4ºSemestre\\ghadockere\\test\\CsharpCICD.Test.csproj",
+        "projectUniqueName": "C:\\Users\\Eric Lima\\Downloads\\4ºSemestre\\ghadockere\\src\\CsharpCICD.csproj",
+        "projectName": "CsharpCICD",
+        "projectPath": "C:\\Users\\Eric Lima\\Downloads\\4ºSemestre\\ghadockere\\src\\CsharpCICD.csproj",
         "packagesPath": "C:\\Users\\Eric Lima\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eric Lima\\Downloads\\4ºSemestre\\ghadockere\\test\\obj\\",
+        "outputPath": "C:\\Users\\Eric Lima\\Downloads\\4ºSemestre\\ghadockere\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eric Lima\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,14 +42,78 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Eric Lima\\Downloads\\4ºSemestre\\ghadockere\\test\\CsharpCICD.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eric Lima\\Downloads\\4ºSemestre\\ghadockere\\test\\CsharpCICD.Test.csproj",
+        "projectName": "CsharpCICD.Test",
+        "projectPath": "C:\\Users\\Eric Lima\\Downloads\\4ºSemestre\\ghadockere\\test\\CsharpCICD.Test.csproj",
+        "packagesPath": "C:\\Users\\Eric Lima\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eric Lima\\Downloads\\4ºSemestre\\ghadockere\\test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Eric Lima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Eric Lima\\Downloads\\4ºSemestre\\ghadockere\\src\\CsharpCICD.csproj": {
+                "projectPath": "C:\\Users\\Eric Lima\\Downloads\\4ºSemestre\\ghadockere\\src\\CsharpCICD.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.8.0, )"
             },
             "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[10.0.1, )"
             },
             "xunit": {
               "target": "Package",

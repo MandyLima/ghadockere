@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "R1Est3CctJk=",
+  "dgSpecHash": "v1y79MMsbmI=",
   "success": true,
   "projectFilePath": "C:\\Users\\Eric Lima\\Downloads\\4ºSemestre\\ghadockere\\test\\CsharpCICD.Test.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Eric Lima\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\Eric Lima\\.nuget\\packages\\coverlet.collector\\10.0.1\\coverlet.collector.10.0.1.nupkg.sha512",
     "C:\\Users\\Eric Lima\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
     "C:\\Users\\Eric Lima\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "C:\\Users\\Eric Lima\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
