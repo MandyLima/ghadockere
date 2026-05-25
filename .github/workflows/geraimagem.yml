@@ -2,9 +2,9 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [ "bl" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "bl" ]
+    branches: [ "main" ]
 
 jobs:
   qualidade:
